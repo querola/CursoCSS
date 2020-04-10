@@ -1,3 +1,27 @@
 body{
-    background-color: blue;
+    /* background-color:grey;
+    background-image: url(img/patron2.jpg);
+    hace que el backgraund se quede fijo 
+    background-attachment: fixed; */
+    text-align: justify;
+
+}
+#caja{
+    border: 5px solid black;
+    padding: 10px;
+    background-color: brown;
+    color: white;
+
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+h2{
+    color: red;
+    background-color: white;
+    border: 5px solid turquoise;
+    padding:  5px;
+}
+p{
+    color: black;
 }
