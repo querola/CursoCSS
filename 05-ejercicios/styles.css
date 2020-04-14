@@ -48,3 +48,49 @@
     color: white;
 
 }
+#contenido{
+    width: 69%;
+    border: 1px solid green;
+    float: left;
+}
+#lateral{
+    width: 30%;
+    border: 1px solid red;
+    float: left;
+    min-height: 500px;
+    text-align: center;
+}
+#contenido > h1{
+    text-align: center;
+    border-bottom:  1px solid #ccc;
+    padding: 15px;
+    color: #444;
+    text-shadow: 1px 1px 2px gray;
+}
+#contenido .caja{
+    width: 40%;
+    height: 250px;
+    background-color: #ccc;
+    border: 1px solid gray;
+    color: white;
+    float: left;
+    margin: 20px;
+    margin-left: 40px;
+    text-align: center;
+    line-height: 200px;
+    color: #444;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 5px;
+}
+.sombra-interior{
+    box-shadow: 5px 5px 10px gray inset !important;
+}
+footer{
+    width: 100%;
+    height: 55px;
+    line-height: 55px;
+    background: #eee;
+    text-align: center;
+    color: #444;
+    border-top: 1px solid #eee;
+}

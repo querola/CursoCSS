@@ -1,32 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ejercicio con html y css</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
-  </head>
-  <body>
+</head>
+
+<body>
     <div id="general">
-      <header id="header">
-        <h1>ejercicio con html y css</h1>
-      </header>
-      <nav id="menu">
-          <ul>
-              <li><a href="#">inicio</a></li>
-              <li><a href="#">Articulos</a></li>
-              <li><a href="#">Categoria</a></li>
-              <li><a href="#">contacto</a></li>
-          </ul>
-          <div class="clearfix"></div>
-      </nav>
-      <section id="contenido">
+        <header id="header">
+            <h1>ejercicio con html y css</h1>
+        </header>
+        <nav id="menu">
+            <ul>
+                <li><a href="#">inicio</a></li>
+                <li><a href="#">Articulos</a></li>
+                <li><a href="#">Categoria</a></li>
+                <li><a href="#">contacto</a></li>
+            </ul>
+            <div class="clearfix"></div>
+        </nav>
+        <section id="contenido">
+            <h1>cajas del contenido principal</h1>
             <div class="caja">
                 <h2>
                     caja 1
                 </h2>
             </div>
-            <div class="caja">
+            <div class="caja sombra-interior" >
                 <h2>
                     caja 2
                 </h2>
@@ -61,15 +64,18 @@
                     caja 8
                 </h2>
             </div>
-      </section>
+        </section>
 
-      <sidebar id="lateral">
-        <div class="caja"></div>
-      </sidebar>
-
-      <footer id="footer">
-        Todos los derechos reservados
-      </footer>
+        <aside id="lateral">
+            <div class="caja">
+                <h2>elemento de la barra lateral</h2>
+            </div>
+        </aside>
+        <div class="clearfix"></div>
+        <footer id="footer">
+            Todos los derechos reservados
+        </footer>
     </div>
-  </body>
+</body>
+
 </html>
